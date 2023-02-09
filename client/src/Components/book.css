@@ -1,5 +1,5 @@
 body {
-    background: #59869b;
+    background-image: linear-gradient(to top,#294e5f, #66cdd4,#294e5f);
     font-family:Arial, Helvetica, sans-serif;
   }
   img {
@@ -19,7 +19,11 @@ body {
     flex-direction: column;
     margin: auto;
     margin-bottom: 20%;
-}  
+} 
+.card:hover{
+   width: 55%;
+   transition: all 0.3s;
+} 
   .header {
     height: 30%;
     background-image: linear-gradient(to right, #7a54c0, #cfb5d3);
