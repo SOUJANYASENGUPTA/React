@@ -1,0 +1,40 @@
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    border-color: aqua;
+    border-width: 30px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-style: solid;
+    margin: auto;
+
+}
+
+.container{
+    margin:auto;
+    text-decoration: solid;
+    margin-bottom: auto;
+}
+.button1{
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.button2{
+    margin-bottom: 30px;
+
+}
+.head1{
+    margin-top:50px;
+    text-align: center;
+    font-weight:600;
+    
+}
+.head2{
+    font-weight: 100;
+    margin-top: -15px;
+}

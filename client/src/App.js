@@ -1,8 +1,9 @@
 import React from 'react';
-import Title from './Components/Title';
-import Quiz from './Components/Quiz';
+//import Title from './Components/Title';
+//import Quiz from './Components/Quiz';
 //import Change from './Components/setstate';
-import Book from './Components/book';
+//import Book from './Components/book';
+import Watch from './Components/Watch';
 const questions=[
   {
     qu:"Where was Vincent Van Gogh born?",
@@ -73,9 +74,9 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
+        <br></br> */}
         
-        <ol>
+        {/* <ol>
             {
               questions.map((element,index) => {
                 return <li key={index}><Quiz q ={element.qu} a={element.an} /> </li>
@@ -84,16 +85,16 @@ function App() {
             }
         </ol> */}
         
-        <ul>
+       {/*  <ul>
             {
               bookList.map((element,index) => {
                 return <li key={index}><Book title={element.title} author={element.author} img={element.img} /> </li>
               })
               
             }
-        </ul>
+        </ul> */}
         
-        
+        <Watch/>
         
     </>
   );
